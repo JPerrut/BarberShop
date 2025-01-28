@@ -1,0 +1,40 @@
+.about .container {
+	flex-direction: column;
+}
+
+.about .container-about {
+	display: flex;
+	gap: 20px;
+}
+
+.container-about .image-about {
+	max-width: 100%;
+	height: auto;
+}
+
+.container-about .about-texts-group {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.about-texts-group .about-texts-title {
+	font-size: var(--h2-text);
+	color: var(--orange-color);
+	margin-bottom: 10px;
+}
+
+.about-texts-group .about-texts {
+	font-size: var(--bodyLG-text);
+}
+
+.about-texts-group .clients-since {
+	display: flex;
+	justify-content: space-between;
+	color: var(--orange-color);
+	font-weight: var(--weight-text);
+}
+.clients-since .clients-since-text {
+	font-size: var(--h6-text);
+}

@@ -1,0 +1,48 @@
+.contacts .container {
+	flex-direction: column;
+}
+
+.contacts .container-contacts {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	gap: 30px;
+}
+.container-contacts .img-adress {
+	width: 100%;
+	max-width: 400px; 
+	border-radius: 5px;
+}
+
+.container-contacts .text-contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100% auto;
+}
+.text-contacts .media-group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+.media-group .media {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.media .media-title {
+	color: var(--white-color);
+	font-weight: var(--weight-text);
+	font-size: var(--bodyLG-text);
+}
+
+.media i {
+	font-size: 20px;
+}
+
+.adress h6 {
+	font-size: var(--h6-text);
+	margin-bottom: 5px;
+}

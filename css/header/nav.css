@@ -1,0 +1,15 @@
+nav .logo {
+	width: 100% auto;
+}
+nav .menu {
+	display: flex;
+	gap: 70px;
+	list-style: none;
+
+}
+
+.menu li {
+	color: var(--white-color);
+	font-size: var(--bodyLG-text);
+	font-weight: var(--weight-text);
+}

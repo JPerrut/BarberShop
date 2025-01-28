@@ -1,0 +1,24 @@
+header {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../../images/header/background-header.png);
+	height: 95vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	background: var(--opaqueBlack-color);
+	padding: 16px 1%; 
+}
+
+header .container-merchandising {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 95%;
+}
