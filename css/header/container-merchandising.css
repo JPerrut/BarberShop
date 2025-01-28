@@ -4,7 +4,8 @@
 	justify-content: center;
 	gap: 20px;
 	background: var(--opaqueBlack-color);
-	padding: 20px 1%
+	padding: 20px 1%;
+	border-radius: 5px;
 }
 
 .merchandising .merchandising-text {
@@ -26,6 +27,6 @@
 	border-radius: 7px;
 	max-width: 30%;
 	border: none;
-	background: var(--darkOrange-color);
+	background: var(--orange-color);
 	font-size: var(--bodyLG-size);
 }

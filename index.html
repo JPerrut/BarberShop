@@ -16,29 +16,32 @@
 	<link rel="stylesheet" href="css/main/about.css">
 	<link rel="stylesheet" href="css/main/services.css">
 	<link rel="stylesheet" href="css/main/contact.css">
-	<link rel="stylesheet" href="css/main/footer.css">
+	<link rel="stylesheet" href="css/footer/footer.css">
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="js/scrollReveal.js" defer></script>
 </head>
 <body>
 	<header>
-		<nav>
+		<nav class="hidden top">
 			<div class="container">
-				<img src="images/logo.png" alt="" class="logo">
+				<img src="images/logo.png" alt="" class="logo hidden top">
 				<ul class="menu">
-					<li>Home</li>
-					<li>About</li>
-					<li>Services</li>
-					<li>Contacts</li>
+					<li class="hidden top">Home</li>
+					<li class="hidden top">About</li>
+					<li class="hidden top">Services</li>
+					<li class="hidden top">Contacts</li>
 				</ul>
 			</div>
 		</nav>
 		<div class="container-merchandising">
 			<div class="container">
-				<div class="merchandising">
+				<div class="merchandising hidden left">
 					<div class="merchandising-text">
-						<h2>Taking care of you,</h2>
-						<h3>enhancing your beauty is our goal.</h3>
+						<h2 class="hidden left">Taking care of you,</h2>
+						<h3 class="hidden left">enhancing your beauty is our goal.</h3>
 					</div>
-					<button class="button">Book now</button>
+					<button class="button hidden left">Book now</button>
 				</div>
 			</div>
 		</div>
@@ -46,36 +49,36 @@
 	<main>
 		<section class="about">
 			<div class="container">
-				<div class="titles-main">ABOUT</div>
+				<div class="titles-main hidden bottom">ABOUT</div>
 				<div class="container-about">
-					<img src="images/main/about/about.png" alt="" class="image-about">
+					<img src="images/main/about/about.png" alt="" class="image-about hidden left">
 					<div class="about-texts-group">
-						<h3 class="about-texts-title">Professional Barbershop</h3>
-						<p class="about-texts">Lorem Ipsum has been the industry's standard dummy text .</p>
-						<p class="about-texts">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+						<h3 class="about-texts-title hidden right">Professional Barbershop</h3>
+						<p class="about-texts hidden right">Lorem Ipsum has been the industry's standard dummy text .</p>
+						<p class="about-texts hidden right">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
 							when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
 						</p>
-						<p class="about-texts">It has survived not only five centuries, but also the leap into electronic 
+						<p class="about-texts hidden right">It has survived not only five centuries, but also the leap into electronic 
 							typesetting, remaining essentially unchanged. 
 						</p>
 						<div class="clients-since">
-							<span class="clients-since-text">+500 clients</span>
-							<span class="clients-since-text">Since 2020</span>
+							<span class="clients-since-text hidden right">+500 clients</span>
+							<span class="clients-since-text hidden right">Since 2020</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container-orange-bar">
+			<div class="container-orange-bar hidden left">
 				<div class="orange-bar"></div>
 			</div>
 		</section>
 
 		<section class="services">
 			<div class="container">
-				<div class="titles-main">SERVICES</div>
+				<div class="titles-main hidden bottom">SERVICES</div>
 				<div class="price-table">
 					<div class="table1">
-						<div class="haircuts">
+						<div class="haircuts hidden left">
 							<div class="haircut-price">
 								<div>Haircut</div>
 								<div class="price">Price - 15$</div>
@@ -83,7 +86,7 @@
 							<p>Lorem ipsum is simply dummy text.</p>
 						</div>
 
-						<div class="haircuts">
+						<div class="haircuts hidden left">
 							<div class="haircut-price">
 								<div>Cut & Shave</div>
 								<div class="price">Price - 18$</div>
@@ -91,7 +94,7 @@
 							<p>Lorem ipsum is simply dummy text.</p>
 						</div>
 
-						<div class="haircuts">
+						<div class="haircuts hidden left">
 							<div class="haircut-price">
 								<div>Beard Trim</div>
 								<div class="price">Price - 15$</div>
@@ -100,7 +103,7 @@
 						</div>
 					</div>
 					<div class="table2">
-						<div class="haircuts">
+						<div class="haircuts hidden right">
 							<div class="haircut-price">
 								<div>Face Shave</div>
 								<div class="price">Price - 12$</div>
@@ -108,7 +111,7 @@
 							<p>Lorem ipsum is simply dummy text.</p>
 						</div>
 
-						<div class="haircuts">
+						<div class="haircuts hidden right">
 							<div class="haircut-price">
 								<div>Head Shave</div>
 								<div class="price">Price - 12$</div>
@@ -116,7 +119,7 @@
 							<p>Lorem ipsum is simply dummy text.</p>
 						</div>
 
-						<div class="haircuts">
+						<div class="haircuts hidden right">
 							<div class="haircut-price">
 								<div>Line Up</div>
 								<div class="price">Price - 19$</div>
@@ -126,55 +129,55 @@
 					</div>
 				</div>
 				<div class="container-image-clients">
-					<img src="images/main/services/client1.png" alt="" class="image-clients">
-					<img src="images/main/services/client2.png" alt="" class="image-clients">
-					<img src="images/main/services/client3.png" alt="" class="image-clients">
-					<img src="images/main/services/client4.png" alt="" class="image-clients">
-					<img src="images/main/services/client5.png" alt="" class="image-clients">
-					<img src="images/main/services/client6.png" alt="" class="image-clients">
+					<img src="images/main/services/client1.png" alt="" class="image-clients hidden bottom">
+					<img src="images/main/services/client2.png" alt="" class="image-clients hidden bottom">
+					<img src="images/main/services/client3.png" alt="" class="image-clients hidden bottom">
+					<img src="images/main/services/client4.png" alt="" class="image-clients hidden bottom">
+					<img src="images/main/services/client5.png" alt="" class="image-clients hidden bottom">
+					<img src="images/main/services/client6.png" alt="" class="image-clients hidden bottom">
 				</div>
 			</div>
 
-			<div class="container-orange-bar">
+			<div class="container-orange-bar hidden right">
 				<div class="orange-bar"></div>
 			</div>
 		</section>
 
 		<section class="contacts">
 			<div class="container">
-				<div class="titles-main">CONTACTS</div>
+				<div class="titles-main hidden bottom">CONTACTS</div>
 				<div class="container-contacts">
-					<img src="images/contact/localization.png" alt="" class="img-adress">
+					<img src="images/contact/localization.png" alt="" class="img-adress hidden left">
 					<div class="text-contacts">
 						<div class="media-group">
-							<div class="media">
+							<div class="media hidden right">
 								<p class="media-title">Whatsapp:</p>
 								<p>+1 (555) 123-4567</p>
 							</div>
-							<div class="media">
+							<div class="media hidden right">
 								<p class="media-title">Email:</p>
 								<p>example@hotmail.com</p>
 							</div>
-							<div class="media">
+							<div class="media hidden right">
 								<p class="media-title">Tell:</p>
 								<p>+1 (310) 987-6543</p>
 							</div>
-							<div class="media">
+							<div class="media hidden right">
 								<i class="fa-brands fa-facebook"></i>
 								<i class="fa-brands fa-instagram"></i>
 							</div>
 						</div>
 						<div class="adress">
-							<h6>Adress:</h6>
-							<p>123 Maple Street</p>
-							<p>Springfield, IL 62704</p>
-							<p>USA</p>
+							<h6 class="hidden right">Adress:</h6>
+							<p class="hidden right">123 Maple Street</p>
+							<p class="hidden right">Springfield, IL 62704</p>
+							<p class="hidden right">USA</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="container-orange-bar">
+			<div class="container-orange-bar hidden left">
 				<div class="orange-bar"></div>
 			</div>
 		</section>
@@ -182,37 +185,37 @@
 	<footer>
 		<div class="container">
 			<div class="text-contacts">
-				<div class="media-group">
-					<div class="media">
+				<div class="media-group hidden bottom">
+					<div class="media hidden left">
 						<p>Whatsapp:</p>
 						<p>+1 (555) 123-4567</p>
 					</div>
-					<div class="media">
+					<div class="media hidden left">
 						<p>Email:</p>
 						<p>example@hotmail.com</p>
 					</div>
-					<div class="media">
+					<div class="media hidden left">
 						<p>Tell:</p>
 						<p>+1 (310) 987-6543</p>
 					</div>
 					<div class="media">
-						<i class="fa-brands fa-facebook"></i>
-						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-facebook hidden left"></i>
+						<i class="fa-brands fa-instagram hidden left"></i>
 					</div>
 				</div>
-				<div class="adress">
-					<h6>Adress:</h6>
-					<p>123 Maple Street</p>
-					<p>Springfield, IL 62704</p>
-					<p>USA</p>
+				<div class="adress hidden">
+					<h6 class="hidden right">Adress:</h6>
+					<p class="hidden right">123 Maple Street</p>
+					<p class="hidden right">Springfield, IL 62704</p>
+					<p class="hidden right">USA</p>
 				</div>
 			</div>
-			<div class="copyright">
-				<p>Website Barber by Perrut. All rights reserved</p>
-				<img src="images/logo.png" alt="" class="logo">
+			<div class="copyright hidden bottom">
+				<p class="hidden bottom">Website Barber by Perrut. All rights reserved</p>
+				<img src="images/logo.png" alt="" class="logo hidden bottom">
 			</div>
 		</div>
-		<div class="container-orange-bar">
+		<div class="container-orange-bar hidden right">
 			<div class="orange-bar"></div>
 		</div>
 	</footer>

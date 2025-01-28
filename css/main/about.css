@@ -10,6 +10,7 @@
 .container-about .image-about {
 	max-width: 100%;
 	height: auto;
+	border-radius: 5px;
 }
 
 .container-about .about-texts-group {
