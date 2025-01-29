@@ -16,7 +16,7 @@ body {
 }
 
 body .hidden {
-	visibility: hidden;
+	visibility: visible;
 }
 
 .container {

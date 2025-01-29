@@ -29,6 +29,14 @@
 	border: none;
 	background: var(--orange-color);
 	font-size: var(--bodyLG-size);
+	transition: 1s ease;
+	color: var(--white-color)
+}
+
+.button:hover {
+	cursor: pointer;
+	background: var(--vibrantOrange-color);
+	transition: 1s ease;
 }
 
 @media (max-width: 768px) {

@@ -41,6 +41,13 @@
 
 .media i {
 	font-size: 20px;
+	transition: all 1s ease;
+}
+
+.media i:hover {
+	cursor: pointer;
+	color: var(--orange-color);
+	transition: all 1s ease;
 }
 
 .adress {

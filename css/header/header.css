@@ -2,7 +2,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	background-image: url(../../images/header/background-header.png);
-	height: 95vh;
+	height: 700px;
 	width: 100%;
 	background-size: cover;
 	background-position: center;
