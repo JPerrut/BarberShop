@@ -57,3 +57,20 @@
 	display: flex;
 	justify-content: end;
 }
+
+@media (max-width: 768px) {
+	.services .price-table {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.services .container-image-clients {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.services .container-image-clients {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

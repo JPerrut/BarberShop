@@ -3,7 +3,7 @@ main {
 }
 
 main .container {
-	padding: 0 1%;
+	padding: 0 112px;
 }
 
 main section {
@@ -31,4 +31,16 @@ main .titles-main {
 	width: 30%;
 	height: 3px;
 	background: var(--vibrantOrange-color);
+}
+
+@media (max-width: 768px) {
+	main .container {
+		padding: 0 32px;
+	}
+}
+
+@media (max-width: 480px) {
+	main .container {
+		padding: 0 20px;
+	}
 }

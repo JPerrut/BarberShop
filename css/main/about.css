@@ -39,3 +39,9 @@
 .clients-since .clients-since-text {
 	font-size: var(--h6-text);
 }
+
+@media (max-width: 768px) {
+	.about .container-about {
+		flex-direction: column;
+	}
+}
