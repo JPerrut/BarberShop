@@ -11,11 +11,12 @@ header {
 
 header nav {
 	display: flex;
+	position: fixed;
+	width: 100%;
 	justify-content: center;
-	background: var(--opaqueBlack-color);
+	background: var(--darkOrange-color);
 	padding: 16px 1%; 
-	position: relative;
-	z-index: 10;
+	z-index: 1000;
 }
 
 header .container-merchandising {

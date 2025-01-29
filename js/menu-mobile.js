@@ -1,6 +1,7 @@
 const menuIcon = document.querySelector('.fa-bars');
 const closeIcon = document.querySelector('.fa-xmark');
 const menu = document.querySelector('.menu');
+const navMenu = document.querySelector('.nav-menu');
 
 menuIcon.addEventListener('click', () => {
 	menu.classList.add('open');
